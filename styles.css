@@ -1,0 +1,56 @@
+body {
+	background: black;
+	font-family: "Dancing Script", cursive;
+	font-family: "Poiret One", sans-serif;
+	margin: 0;
+}
+.prueba {
+	padding: 200px 100px;
+	background-color: rgba(57, 56, 56, 0.297);
+	margin: auto;
+	height: 600px;
+	width: 600px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: 0;
+	padding-top: 10px;
+}
+.postcard-body {
+	display: flex;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(193, 189, 189);
+	padding: 4px 8px;
+	border: none;
+}
